@@ -79,10 +79,13 @@ This project is a React-based admin panel that allows users to manage their prof
 Here are some screenshots of the application:
 
 ### Profile Section
-![Profile Section](screenshots/profile-section.png)
+![Profile Section](screenshots/123.png)
 
-### Links Section
-![Links Section](screenshots/links-section.png)
+### Login Section
+![Login Section](screenshots/1234.png)
+
+### Admin Section
+![Admin Section](screenshots/12345.png)
 
 ## Contributing
 
@@ -90,4 +93,4 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the file for details.
