@@ -1,0 +1,113 @@
+.admin-panel {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .profile-section,
+  .links-section {
+    margin-bottom: 20px;
+  }
+  
+  .profile-section input,
+  .links-section input,
+  .links-section select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-section button,
+  .links-section button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000ac;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .profile-section button:hover,
+  .links-section button:hover {
+    background-color: #0000008b;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .link-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .nickname-section {
+    margin-top: 20px;
+  }
+  
+  .profile-image {
+    width: 100%;
+  }
+  
+  @media (max-width: 600px) {
+    .admin-panel {
+      padding: 10px;
+    }
+  
+    .profile-section input,
+    .links-section input,
+    .links-section select,
+    .profile-section button,
+    .links-section button {
+      padding: 8px;
+    }
+  }
+  
+
+  .updown{
+    width: 100% !important;
+    margin: 0px !important;
+  }
+
+  .updowncontainer{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 30%;
+  }
+
+  .inputcontainer{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 30%;
+  }
+
+
+  .removecontainer{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 19%;
+  }
+
+
+  .pf-border-fix{
+    margin: 21px auto !important;
+  }

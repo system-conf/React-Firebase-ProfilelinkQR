@@ -1,0 +1,143 @@
+#root {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+html,
+body {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  background-position: center;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/sulocloud-535a5.appspot.com/o/users%2FGIXjzrsUCFT54mFd9nSrzj73VA33%2Fqrback%20(1).jpg?alt=media&token=f18e58a2-e159-4a0f-8551-7d84ee6d2037");
+}
+
+.column {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.pf-border {
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.pf {
+  width: 100px;
+}
+
+.nick {
+  margin-top: 5%;
+  font-weight: 500;
+  font-size: 20px;
+}
+.button {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  /* border: 3px solid black; */
+  font-weight: 500;
+  font-size: 18px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 20px;
+  border: 1px solid white;
+}
+
+.button:hover {
+  background-color: black;
+  transform: scale(105%);
+  transition: transform 300ms;
+  color: white;
+}
+
+.icon {
+  width: 10%;
+}
+
+.link-name {
+  width: 90%;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #0cc5fde9);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.admin-button{
+  width: 100%;
+  background-color: #0cc5fd00;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 20px;
+  border: 1px solid white;
+}
